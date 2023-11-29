@@ -11,9 +11,9 @@ theme:
     - search.share
 
 markdown_extensions:
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
   - admonition
   - pymdownx.details
