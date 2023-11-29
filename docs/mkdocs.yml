@@ -1,0 +1,28 @@
+site_name: My Docs
+repo_url: https://github.com/Notekunn/homelab
+theme:
+  name: material
+  palette:
+    primary: black
+  features:
+    - navigation.indexes
+    - navigation.expand
+    - search.highlight
+    - search.share
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+  - def_list
+  - pymdownx.tasklist:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
